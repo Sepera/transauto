@@ -1,0 +1,51 @@
+﻿ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000;
+}
+
+li {
+    float: left;
+}
+img{
+height: 80px;
+width: 120px;
+}
+
+.main{
+padding:0;
+margin-left:0px;
+margin-right:0px;
+margin-top:0px;
+}
+
+.content {
+  padding:-10px;
+  background-image: url("fon9.jpg");
+  background-color: #0000;
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 32px 18px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #b6000c;
+}
+.contact{
+float:right;
+}
+
+.active {
+    background-color: #4CAF50;
+}

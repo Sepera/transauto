@@ -1,0 +1,13 @@
+.bimage {
+  background-image: url("we.jpg");
+  background-color: #cccccc;
+  height: 700px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+ 
+h1 {
+text-align: center;
+color: blue;}
