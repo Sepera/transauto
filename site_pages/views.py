@@ -21,7 +21,7 @@ def contact(request):
         else: message = ''
 
         msg = "\r\n".join([
-            "From: kravchenkos.spb@gmail.com",
+            "From: ekb.transavto@gmail.com",
             "To: annamyakshina1@gmail.com",
             "Subject: Just a message",
             "Заявка",
@@ -33,8 +33,8 @@ def contact(request):
         ]).encode('utf-8')
         fromaddr = "kravchenkos.spb@gmail.com"
         toaddrs = "annamyakshina1@gmail.com"
-        username = 'kravchenkos.spb@gmail.com'
-        password = 'quantphys2016'
+        username = 'ekb.transavto@gmail.com'
+        password = '!qaztrans'
 
         server.login(username, password)
         server.sendmail(fromaddr, toaddrs, msg)
